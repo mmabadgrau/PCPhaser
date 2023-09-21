@@ -1,0 +1,28 @@
+Files: *
+Authors:   Sergio Torres 
+Copyright: 2013 Universidad de Granada
+
+License: 
+ SOFTWARE COPYRIGHT NOTICE AGREEMENT
+ This software and its documentation are copyright (2013) by Universidad de Granada. 
+All rights are reserved. This software is supplied 
+ without any warranty or guaranteed support whatsoever. Universidad de Granada cannot be responsible for its use, misuse, or 
+ functionality. The software may be freely copied for non-commercial purposes, 
+ provided this copyright notice is retained.
+
+
+Files: EIG4.2/*
+Authors:   Alkes Price ,
+	   Nick Patterson ,
+	   Samuela Pollack 
+Copyright: 2010 Harvard University and The Broad Institute
+
+License: 
+ SOFTWARE COPYRIGHT NOTICE AGREEMENT
+ This software and its documentation are copyright (2010) by Harvard University 
+ and The Broad Institute. All rights are reserved. This software is supplied 
+ without any warranty or guaranteed support whatsoever. Neither Harvard 
+ University nor The Broad Institute can be responsible for its use, misuse, or 
+ functionality. The software may be freely copied for non-commercial purposes, 
+ provided this copyright notice is retained.
+

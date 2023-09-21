@@ -1,0 +1,71 @@
+{
+  "paths": [
+    {
+      "_path": "bin/baseprog",
+      "path_type": "hardlink",
+      "sha256": "28b0662b0eee71cf4c74d999a90407966dcd756298c5f9f3c4a13f37d55ebec9",
+      "size_in_bytes": 492976
+    },
+    {
+      "_path": "bin/convertf",
+      "path_type": "hardlink",
+      "sha256": "b6e1926259e691fec8d8d3824feafafadf4a4c807918648641893316f20e22f1",
+      "size_in_bytes": 508160
+    },
+    {
+      "_path": "bin/eigenstrat",
+      "path_type": "hardlink",
+      "sha256": "5dcafdd1086867544d09e0e42011a01b359fc9fce6bf6996cddf8fa02e0210e4",
+      "size_in_bytes": 17648
+    },
+    {
+      "_path": "bin/eigenstratQTL",
+      "path_type": "hardlink",
+      "sha256": "a13d0fd7599f29cfe1536cff1255fc64b0d95d8fe1cba3eda198ab10bf64101c",
+      "size_in_bytes": 17648
+    },
+    {
+      "_path": "bin/mergeit",
+      "path_type": "hardlink",
+      "sha256": "768f451a012195c67badbee5fcc226a52b8541889fe26f10c2c50cb4ac492a66",
+      "size_in_bytes": 493064
+    },
+    {
+      "_path": "bin/pca",
+      "path_type": "hardlink",
+      "sha256": "8e3978551ee674c07ddbdc049e2ab85d55d8844f8e6d53ca3f0cea8bf431827a",
+      "size_in_bytes": 205504
+    },
+    {
+      "_path": "bin/pcatoy",
+      "path_type": "hardlink",
+      "sha256": "b4da7e3f747ea3ac014992c3e90efab983f75fbaef7b3defb4e97cdb3860bc69",
+      "size_in_bytes": 200976
+    },
+    {
+      "_path": "bin/smarteigenstrat",
+      "path_type": "hardlink",
+      "sha256": "c8a5853b87a4310aef34e66c203879ead102e7a53a7306bd3af033041fb4460d",
+      "size_in_bytes": 492560
+    },
+    {
+      "_path": "bin/smartpca",
+      "path_type": "hardlink",
+      "sha256": "c63878b65236e0b6c1d1dbbb7494750c21cd66136bf1f898ef67f43e58cd57f9",
+      "size_in_bytes": 673144
+    },
+    {
+      "_path": "bin/smartrel",
+      "path_type": "hardlink",
+      "sha256": "8a159b3f7b6be8972a10c66c7c3caea784a1ac169dd4cb8f3dc06ee85c84dde2",
+      "size_in_bytes": 603376
+    },
+    {
+      "_path": "bin/twstats",
+      "path_type": "hardlink",
+      "sha256": "388c67d3815a30696a777316d99dd6cbce099b8c9b3406192103d6e87ec47909",
+      "size_in_bytes": 407120
+    }
+  ],
+  "paths_version": 1
+}

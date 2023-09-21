@@ -1,0 +1,9 @@
+set terminal postscript color
+set title  "" 
+set xlabel  "eigenvector 1" 
+set ylabel  "eigenvector 2" 
+plot  "example.pca.evec.1:2:9.999990e-01" using 2:3 title "9.999990e-01" , \
+ "example.pca.evec.1:2:1.000001e+00" using 2:3 title "1.000001e+00" , \
+ "example.pca.evec.1:2:-1.000000e-06" using 2:3 title "-1.000000e-06" , \
+ "example.pca.evec.1:2:1.000000e-06" using 2:3 title "1.000000e-06" 
+## pause 9999
