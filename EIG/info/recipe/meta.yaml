@@ -1,0 +1,64 @@
+# This file created by conda-build 3.21.8
+# meta.yaml template originally from:
+# /Users/runner/work/1/s/recipes/eigensoft, last modified Sun Oct 30 09:06:36 2022
+# ------------------------------------------------
+
+package:
+  name: eigensoft
+  version: 8.0.0
+source:
+  patches:
+    - 0001-Add-gfortran-to-LDLIBS.patch
+  sha256: e3459e8ac0134da369910454854eae5c7b261e8816318ccbd2d371b4c6c35741
+  url: https://github.com/DReichLab/EIG/archive/refs/tags/v8.0.0.tar.gz
+build:
+  number: '1'
+  string: hb7a49db_1
+requirements:
+  build:
+    - ca-certificates 2022.9.24 h033912b_0
+    - cctools_osx-64 973.0.1 h3eff9a4_10
+    - clang 14.0.4 h694c41f_0
+    - clang-14 14.0.4 default_h55ffa42_0
+    - clang_osx-64 14.0.4 h3a95cd4_2
+    - clangxx 14.0.4 default_h55ffa42_0
+    - compiler-rt 14.0.4 h7fcd477_0
+    - compiler-rt_osx-64 14.0.4 h6df654d_0
+    - ld64_osx-64 609 h1e06c2b_10
+    - libclang-cpp14 14.0.4 default_h55ffa42_0
+    - libcxx 14.0.6 hccf4f1f_0
+    - libllvm13 13.0.1 h64f94b2_2
+    - libllvm14 14.0.4 h41df66c_0
+    - libzlib 1.2.13 hfd90126_4
+    - llvm-tools 14.0.4 h41df66c_0
+    - make 4.3 h22f3db7_1
+    - openssl 3.0.5 hfd90126_2
+    - sigtool 0.1.3 h88f4db0_0
+    - tapi 1100.0.11 h9ce4665_0
+  host:
+    - gsl 2.7 h93259b0_0
+    - libblas 3.9.0 16_osx64_openblas
+    - libcblas 3.9.0 16_osx64_openblas
+    - libgfortran 5.0.0 10_4_0_h97931a8_25
+    - libgfortran5 11.3.0 h082f757_25
+    - libopenblas 0.3.21 openmp_h429af6e_3
+    - llvm-openmp 14.0.4 ha654fa7_0
+    - openblas 0.3.21 openmp_hbefa662_3
+  run:
+    - gsl >=2.7,<2.8.0a0
+    - openblas
+    - perl
+test:
+  commands:
+    - smartpca > /dev/null 2>&1
+about:
+  home: https://github.com/DReichLab/EIG
+  license: Custom OSS
+  summary: The EIGENSOFT package implements methods for analzing population structure
+    and performing stratification correction
+extra:
+  copy_test_source_files: true
+  final: true
+  identifiers:
+    - biotools:Eigensoft
+    - doi:10.1371/journal.pgen.0020190

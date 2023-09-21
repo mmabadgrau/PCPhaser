@@ -1,0 +1,11 @@
+bin/baseprog
+bin/convertf
+bin/eigenstrat
+bin/eigenstratQTL
+bin/mergeit
+bin/pca
+bin/pcatoy
+bin/smarteigenstrat
+bin/smartpca
+bin/smartrel
+bin/twstats
